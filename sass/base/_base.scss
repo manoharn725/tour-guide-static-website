@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* default browser font-size:16px; 
+so
+to get 10px in percentage
+10/16=0.625*100 = 62.5% 
+that's what we will add below instead of 
+font-size: 10px;
+verification 0.625*16=10 */
+
+  // This defines what 1rem is
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
